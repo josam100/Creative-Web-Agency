@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our portfolio showcasing stunning, user-friendly websites developed to meet the unique needs of our clients. Discover why top businesses trust us to bring their digital projects to life.">
+    <title>Portfolio</title>
+    <!-- =========================================================
+                        MAIN-CSS-FILE
+     ==========================================================-->
+    <link rel="stylesheet" href="style.css">
+    <!-- =========================================================
+                        ANIMATED-LIBRARY-CSS-CDN
+     ==========================================================-->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- =========================================================
+                        HEADER
+     ==========================================================-->
+    <header>
+        <div class="container" data-aos="fade-in" data-aos-duration="2000">
+            <a href="#" class="logo">Jo<span class="full-stop">.</span>Sam</a>
+            <nav>
+            <ul>
+                <li onclick="scrollToElement('why-us')"><a>Why US</a></li>
+                <li onclick="scrollToElement('testimonials')"><a>Testimonials</a></li>
+                <li onclick="scrollToElement('faq')"><a>FAQ</a></li>
+            </ul>
+            </nav>
+            <div class="login">
+                <a href="#">Let's talk <img class="arrow" src="images/white-arrow.png" alt="Arrow" /></a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle Menu"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <!-- =========================================================
+                        MAIN CONTENT
+     ==========================================================-->
+    <main>
+        <!-- HERO-SECTION -->
+        <section class="hero-section">
+            <div class="container" data-aos="fade-right" data-aos-duration="1000">
+                <h1>We develop <img class="sparkle" src="images/sparkle.png" alt="Sparkle" /> <br /> <span>amazing</span> websites <br /> for your business<span class="full-stop">.</span></h1>
+                <p>
+                    We create customized, responsive websites tailored to your business needs. From e-commerce platforms to portfolio sites, we ensure a seamless user experience.
+                </p>
+                <div class="box">
+                    <div class="button">
+                        <button type="submit">View work <img src="images/white-arrow.png" alt="Arrow" /></button>
+                    </div>
+                    <div class="imgs">
+                        <img src="images/character.jpg" alt="Character 1" />
+                        <img src="images/character2.jpg" alt="Character 2" />
+                        <img src="images/character3.jpg" alt="Character 3" />
+                    </div>
+                    <div class="info">
+                        <h1>1000+</h1>
+                        <p>Happy clients</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRUSTED-BOX -->
+        <section class="trusted-box" id="why-us">
+            <div class="container">
+                <h1>Trusted by 30+ businesses</h1>
+                <div class="cards">
+                    <div class="card" data-aos="fade-up" data-aos-delay="0">Google</div>
+                    <div class="card" data-aos="fade-up" data-aos-delay="100">Udemy</div>
+                    <div class="card" data-aos="fade-up" data-aos-delay="200">WhatsApp</div>
+                    <div class="card" data-aos="fade-up" data-aos-delay="300">Facebook</div>
+                    <div class="card" data-aos="fade-up" data-aos-delay="400">Instagram</div>
+                    <div class="card" data-aos="fade-up" data-aos-delay="500">Pinterest</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXCEEDING-EXPECTATIONS -->
+        <section class="exceeding-expectations">
+            <div class="container">
+                <div class="titles" data-aos="fade-right" data-aos-duration="1000">
+                    <p class="p-top">SERVICES</p>
+                    <div class="main-title">
+                        <h1>Exceeding Expectations</h1>
+                        <img class="sparkle" src="images/sparkle.png" alt="Sparkle" />
+                    </div>
+                    <p class="p-bottom">
+                        We're not just another agency; we're your path to your exceptional web project.
+                    </p>
+                </div>
+                <div class="cards">
+                    <div class="card" data-aos="fade-up" data-aos-delay="0">
+                        <div class="icon">
+                            <img src="images/location.png" alt="Location" />
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>
+                            We specialize in creating high-performance websites that not only look great but also drive business results. Our team uses the latest technologies to build robust web solutions.
+                        </p>
+                        <div class="arrow-icon">
+                            <img src="images/white-arrow.png" alt="Arrow" />
+                        </div>
+                    </div>
+                    <div class="card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon">
+                            <img src="images/location.png" alt="Location" />
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p>
+                            Our design team crafts user-friendly interfaces that enhance user experience and engagement. We focus on intuitive design to make navigation seamless.
+                        </p>
+                        <div class="arrow-icon">
+                            <img src="images/white-arrow.png" alt="Arrow" />
+                        </div>
+                    </div>
+                    <div class="card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon">
+                            <img src="images/location.png" alt="Location" />
+                        </div>
+                        <h3>SEO Optimization</h3>
+                        <p>
+                            We implement effective SEO strategies to boost your website's visibility on search engines. Our approach ensures higher rankings and increased traffic.
+                        </p>
+                        <div class="arrow-icon">
+                            <img src="images/white-arrow.png" alt="Arrow" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+        <section class="portfolio">
+            <div class="container">
+                <div class="titles" data-aos="fade-right" data-aos-duration="1000">
+                    <p class="p-top">PORTFOLIO</p>
+                    <div class="main-title">
+                        <h1>Our latest work</h1>
+                        <img class="sparkle" src="images/sparkle.png" alt="Sparkle" />
+                    </div>
+                    <p class="p-bottom">
+                        Explore our recent projects that highlight our expertise in web development. From innovative design to flawless functionality, see how we bring our clients' visions to life.
+                    </p>
+                </div>
+                <div class="cards">
+                    <div class="card" data-aos="fade-up" data-aos-delay="0">
+                        <img src="images/portfolio-img1.jpg" alt="Portfolio Image 1" />
+                        <div class="info portfolio-card-info">
+                            see project<img src="images/white-arrow.png" alt="Arrow" />
+                        </div>
+                    </div>
+                    <div class="card" data-aos="fade-up" data-aos-delay="100">
+                        <img src="images/portfolio-img2.jpg" alt="Portfolio Image 2" />
+                        <div class="info portfolio-card-info">
+                            see project<img src="images/white-arrow.png" alt="Arrow" />
+                        </div>
+                    </div>
+                    <div class="card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="images/portfolio-img3.jpg" alt="Portfolio Image 3" />
+                        <div class="info portfolio-card-info">
+                            see project<img src="images/white-arrow.png" alt="Arrow" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS -->
+        <section class="testimonial-section" id="testimonials">
+            <div class="container">
+                <div class="titles" data-aos="fade-in" data-aos-duration="1000">
+                    <p class="p-top">TESTIMONIALS</p>
+                    <div class="main-title">
+                        <h1>What Our Clients Say</h1>
+                        <img class="sparkle" src="images/sparkle.png" alt="Sparkle" />
+                    </div>
+                </div>
+                <div class="testimonials" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="testimonial-card">
+                        <p>"This team transformed our website into a stunning, user-friendly platform. Our clients love it!"</p>
+                        <div class="testimonial-info">
+                            <img src="images/character.jpg" alt="Client 1" class="testimonial-img" />
+                            <div>
+                                <h3>John Doe</h3>
+                                <p>CEO, Company A</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"Their attention to detail and dedication is unparalleled. We couldn't be happier with the results."</p>
+                        <div class="testimonial-info">
+                            <img src="images/character2.jpg" alt="Client 2" class="testimonial-img" />
+                            <div>
+                                <h3>Jane Smith</h3>
+                                <p>Marketing Director, Company B</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"Outstanding service and amazing results. They went above and beyond our expectations."</p>
+                        <div class="testimonial-info">
+                            <img src="images/character3.jpg" alt="Client 3" class="testimonial-img" />
+                            <div>
+                                <h3>Emily Johnson</h3>
+                                <p>CTO, Company C</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =========================================================
+                        FOOTER 
+     ==========================================================-->
+    <footer class="footer-section" id="faq">
+        <div class="container" data-aos="fade-up" data-aos-duration="500">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>About Us</h3>
+                    <p>
+                        We are a leading company in our field, dedicated to providing top-notch services to our clients. Our commitment to excellence has earned us a reputation for quality and reliability.
+                    </p>
+                </div>
+                <div class="footer-nav">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@company.com</p>
+                    <p>Phone: +123 456 7890</p>
+                    <p>Address: 123 Street, City, Country</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Jo<span class="full-stop">.</span>Sam , All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- =========================================================
+                        MAIN-JS-FILE 
+     ==========================================================-->
+    <script src="script.js"></script>
+
+    <!-- =========================================================
+                        ANIMATED-LIBRARY-JS-CDN
+     ==========================================================-->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    
+    <!-- =========================================================
+                        ANIMATED-LIBRARY-SCRIPT 
+     ==========================================================-->
+    <script>
+        AOS.init({
+            once: true // Run the animation only once
+        });
+    </script>
+
+</body>
+</html>
